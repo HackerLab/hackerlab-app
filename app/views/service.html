@@ -1,0 +1,20 @@
+<form class="form-horizontal">
+    <legend>Service Request</legend>
+    <div class="control-group">
+        <label class="control-label" for="inputEmail">Contact Email:</label>
+        <div class="controls">
+            <input type="text" id="inputEmail" placeholder="Email" ng-model="newRequest.contactEmail">
+        </div>
+    </div>
+    <div class="control-group">
+        <label class="control-label" for="serviceRequest">Request Details:</label>
+        <div class="controls">
+            <textarea rows="10" style="width: 420px;" id="serviceRequest" ng-model="newRequest.content"></textarea>
+        </div>
+    </div>
+    <div class="control-group">
+        <div class="controls">
+            <button type="submit" class="btn btn-primary" ng-click="submitRequest(newRequest)">Submit</button>
+        </div>
+    </div>
+</form>
