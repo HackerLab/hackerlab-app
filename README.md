@@ -1,7 +1,7 @@
 hackerlab-app
 =============
 
-Hacker lab MEAN (MongoDB, Express.js, Angular.js, Nodes.js) application.
+Hacker lab MEAN (MongoDB, Express.js, Angular.js, Node.js) application.
 
 ##Prerequisites
  * Install MongoDB http://www.mongodb.org/
